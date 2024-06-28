@@ -27,6 +27,7 @@ const App: React.FC = () => {
                   </ul>
               </nav>
               <Routes>
+                  <Route path="/" element={<ListarTarefa />} />
                   <Route path="/tarefa/listar" element={<ListarTarefa />} />
                   <Route path="/tarefa/cadastrar" element={<CadastrarTarefa />} />
                   <Route path="/tarefa/concluidas" element={<ListarConcluido />} />
